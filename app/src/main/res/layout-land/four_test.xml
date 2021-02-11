@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentBottom="true">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    >
+
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:max="5"
+        android:progress="0"
+        android:visibility="visible"
+        android:id="@+id/progressBar"
+        android:layout_below="@+id/textView11"
+      />
+
+    <TextView
+        android:layout_width="246dp"
+        android:layout_height="46dp"
+        android:background="@drawable/csu"
+        android:id="@+id/textView18"
+        android:layout_below="@+id/imageButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="@drawable/record2"
+        android:id="@+id/imageButton"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="630dp"
+        android:layout_below="@+id/progressBar"
+
+         />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="@drawable/next4"
+        android:id="@+id/button13"
+        android:layout_toRightOf="@+id/imageButton"
+        android:layout_below="@+id/progressBar"
+        android:layout_alignTop="@+id/imageButton"
+         />
+
+    <TextView
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:background="@drawable/circle1"
+        android:textSize="122sp"
+        android:id="@+id/textView11"
+        android:layout_below="@+id/textView12"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textColor="#9b2fdd"
+        android:textSize="46dp"
+        android:id="@+id/textView12"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp" />
+
+
+</RelativeLayout>
+    </ScrollView>

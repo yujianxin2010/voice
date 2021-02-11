@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentBottom="true">
+
+<RelativeLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/wel2"
+        android:id="@+id/zitestbtn"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/textView27"
+        android:layout_alignStart="@+id/textView27"
+        android:layout_alignRight="@+id/textView27"
+        android:layout_alignEnd="@+id/textView27"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/zitestbutton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:id="@+id/textView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/citestbtn" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_below="@id/citestbtn"
+        android:id="@+id/textView21"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <TextView
+        android:layout_width="246dp"
+        android:layout_height="46dp"
+       android:background="@drawable/csu"
+        android:id="@+id/textView27"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="1400dp"
+        android:layout_height="250dp"
+
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/choc3"
+        android:textSize="30dp"
+        android:id="@+id/button3"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/zitestbtn" />
+
+    <Button
+        android:layout_width="1400dp"
+        android:layout_height="250dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/choc1"
+        android:id="@+id/zitestbutton"
+        android:layout_below="@+id/zitestbtn"
+            />
+
+    <Button
+        android:layout_width="1400dp"
+        android:layout_height="250dp"
+        android:gravity="center"
+        android:background="@drawable/choc2"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/citestbtn"
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/zitestbtn"
+        />
+
+
+</RelativeLayout>
+</ScrollView>
